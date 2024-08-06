@@ -1,0 +1,72 @@
+#MainContainer
+{
+    background: #bbbb44;
+    width: 1200px;
+    margin: auto;
+}
+#Header
+{
+    background:lightgoldenrodyellow;
+    height: 400px;
+    color: white;
+}
+#Menu
+{
+    background:#232222;
+    height:25px;
+    padding: 20px;
+  
+}
+#Menu a
+{
+    padding:20px;
+    color:White;
+      text-decoration: none;
+}
+#Menu a:hover
+{
+    padding:20px;
+    color:dimgray;
+    text-decoration: underline;
+}
+#SideBar1
+{
+    height: 700px;
+    background:#446477;
+    width:300px;
+    float:right;
+}
+#SideBar2
+{
+    height: 700px;
+    background:#6a3131;
+    width:300px;
+    float:left;
+}
+#ContentPlace
+{
+    height:700px;
+    background:lightgray;
+    
+}
+#Footer
+{
+    background: black;
+    height: 40px;
+    color:snow;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+a{
+    color: black;
+    font-size: 20px;
+}
+#SideBar2 img{
+    border:2px solid black;
+    border-radius: 10px;
+}
+#SideBar1 img{
+    border:2px solid black;
+    border-radius: 10px;
+}

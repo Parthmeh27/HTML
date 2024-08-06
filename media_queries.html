@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Example of CSS Media Queries</title>
+<style>
+    #mobile{background-color: lightblue;
+        border: 5px solid black;
+        height:600px;
+        font-size: 25px;
+        display: none;
+        
+    }
+    #tablet{background-color:lightcoral;
+         border: 5px solid black;
+        height:284px;
+          font-size: 25px;
+        display: none;
+    }
+    #laptop{background-color: lightsalmon;
+        border: 5px solid black;
+        height:284px;
+          font-size: 25px;
+        display: none;
+    }
+    #desktop{background-color: lightgray;
+        border: 5px solid black;
+        height:284px;
+          font-size: 25px;
+        display: none;
+    }
+    /* mobile */
+    @media screen and (min-width: 0px) and (max-width: 500px){
+        #mobile{
+            display: block;
+        }
+    }
+    
+    /* tablet */
+    @media screen and (min-width: 501px) and (max-width: 1050px){
+       
+        #tablet{
+            display: block;
+        }
+    }
+   
+    /* laptop */
+    @media screen and (min-width: 1051px) and (max-width:1190px){
+        
+        #laptop{
+            display: block;
+        }
+    }
+    /* Desktop */
+    @media screen and (min-width: 1191px){
+    
+        #desktop{
+            display: block;
+        }
+        
+    }
+    #mobile>img{
+        border: 7px solid red;
+        
+        margin-right: 10px;
+    }
+    #tablet>img{
+        border: 7px solid gold;
+        float: left;
+        margin-right: 10px;
+       
+        
+    }
+     #laptop>img{
+        border: 7px solid lightseagreen;
+         float: left;
+         margin-right: 10px;
+          
+    }
+     #desktop>img{
+        border: 7px solid cadetblue;
+         float: left;
+         margin-right: 10px;
+          
+    }
+    #mobile>p{
+        text-align: center;
+    }
+   
+</style>
+</head>
+    <body>
+        <h2>Resize the window</h2>
+    <div id="desktop">
+    <img src="assets/images/reactnative.webp" height="270" width="250">
+    <p>React Native is an open-source UI software framework created by Meta Platforms, Inc. It is used to develop applications for Android, Android TV, iOS, macOS, tvOS, Web, Windows and UWP by enabling developers to use the React framework along with native platform capabilities.</p>
+    </div>
+    <div id="laptop">
+    <img src="assets/images/Bootstrap_logo.webp" height="270" width="250" >
+    <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+    </div>
+         <div id="mobile">
+    <img src="assets/images/html.webp" height="270" width="317">
+<p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. </p>
+    </div>
+         <div id="tablet">
+    <img src="assets/images/haml.webp" height="270" width="250">
+             <p>Haml is a templating system that is designed to avoid writing inline code in a web document and make the HTML cleaner. Haml gives the flexibility to have some dynamic content in HTML.</p>
+    </div>
+</body>
+</html>
