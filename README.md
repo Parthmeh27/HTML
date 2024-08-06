@@ -1,2 +1,2 @@
 # HTML
-I have created few Assignments 📝 and Websites  with HTML. 🖥️⌨
+I have created few Websites and did Assignments📝 with HTML. 🖥️⌨
